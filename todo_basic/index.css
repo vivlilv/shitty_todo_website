@@ -1,0 +1,93 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 50%;
+
+  }
+
+button, input {
+  height:50px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.container {
+  width: 500px;
+}
+
+#inputField {
+  width: 300px;
+  height: 46px;
+  border: 2px solid black;
+  outline: none;
+  font-size:25px;
+  vertical-align: middle;
+}
+
+#add-task {
+  height: 50px;
+  width:100px;
+  border: 2px solid green;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.paragrapgh-styling {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.dropdown-filter {
+  position: relative;
+  display: inline-block;
+}
+
+#filter-by,#send-to-notion{
+  cursor: pointer;
+  background-color: rgb(77, 83, 152);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.dropdown-filter:hover .filters {
+  display: block;
+}
+
+
+.filters a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.filters a:hover{
+  background-color: rgb(213, 223, 78);
+}
+
+.filters{
+  display:none;
+  position: absolute;
+  background-color: rgb(220, 225, 228);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px;
+  margin-bottom: 100px;
+}
+
+#top {
+  width:400px;
+  text-align: center;
+  align-items: center;  
+  /*justify-content: center;*/
+}
+
+
+#songs {
+  border: 2px solid greenyellow;
+  vertical-align: middle;
+  
+}
+
